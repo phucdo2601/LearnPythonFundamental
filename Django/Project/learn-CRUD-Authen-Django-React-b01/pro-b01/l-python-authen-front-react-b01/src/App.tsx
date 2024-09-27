@@ -1,14 +1,10 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [userName, setUserName] = useState("name")
 
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div>App</div>
   )
 }
 
